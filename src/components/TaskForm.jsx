@@ -10,7 +10,7 @@ const TaskForm = ({setTasks}) => {
         })
     const handleChange=(e)=>{
         const {name,value}=e.target;
-        setTaskData((prev) => {
+        setTaskData(prev => {
             return {...prev,
                 [name]:value
             }

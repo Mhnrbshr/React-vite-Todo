@@ -8,4 +8,5 @@
 .task_column_heading {
     display: flex;
     align-items: end;
+     margin-bottom: 15px;
 }
